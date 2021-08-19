@@ -1,6 +1,10 @@
 *Tracking COVID-19 Variants*
 ---------------------------------------------------------------
 
+To run this analysis, you must first download this repository. If you have git,
+you can clone it directly to your computer. If not, download it as a ZIP file
+(under the green "Code" button) and unzip it on your computer.
+
 Video tutorial
 -------------
 If you have a WHO account, you should be able to
