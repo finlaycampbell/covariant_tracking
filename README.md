@@ -28,5 +28,5 @@ Running the analyis
 -------------
 
 - Open the `covariant_tracking.RProj` file if using RStudio, otherwise make sure
-  your working directory is somewhere within this folder
+  your working directory is somewhere within this folder.
 - Open the `run_analysis.R` file, which will guide you through the analysis.
