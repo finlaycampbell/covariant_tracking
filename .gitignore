@@ -38,5 +38,3 @@ vignettes/*.pdf
 # Ignore local folders
 data/*
 outputs/*
-figures/all_countries/*
-figures/all_countries_voc/*
