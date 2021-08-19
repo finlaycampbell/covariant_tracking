@@ -42,7 +42,7 @@ results <- get_results(
 ## this will run the analysis with only VOI/VOC
 results <- get_results(
   ## provide data
-  gis = filter(gis, report_country == "Germany"),
+  gis = gis,
   ## do you want to re-run the analysis?
   update = TRUE,
   ## what is the date of GISAID database?

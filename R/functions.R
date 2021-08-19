@@ -5090,10 +5090,10 @@ get_results <- function(gis,
         )
       ) %T>%
       export_proportions(
-        here(glue("outputs/global/proportions{ifelse(null_variants,'_frequent', '_voi')}_{Sys.Date()}.rds"))
+        here(glue("outputs/proportions{ifelse(null_variants,'_frequent', '_voi')}_{Sys.Date()}.rds"))
       ) %T>%
       export(
-        here(glue("outputs/global/results{ifelse(null_variants, '_frequent', '_voi')}_{Sys.Date()}.rds"))
+        here(glue("outputs/results{ifelse(null_variants, '_frequent', '_voi')}_{Sys.Date()}.rds"))
       )
 
     results %>%
@@ -5117,7 +5117,7 @@ get_results <- function(gis,
 
   } else {
 
-    results <- import(find_latest("results_frequent", where = here("outputs/global")))
+    results <- import(find_latest("results_frequent", where = here("outputs")))
 
   }
 
