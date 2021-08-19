@@ -30,3 +30,5 @@ Running the analyis
 - Open the `covariant_tracking.RProj` file if using RStudio, otherwise make sure
   your working directory is somewhere within this folder.
 - Open the `run_analysis.R` file, which will guide you through the analysis.
+- The figures will be updated in the `\figures` folder and the analysis saved in the
+  `\outputs` folder.

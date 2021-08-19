@@ -13,10 +13,8 @@ source(here("R/functions.R"))
 ## get gisaid genomic epi data
 gis <- get_gis()
 
-## ## get epinow
-## epinow <- get_epinow()
-
-## this will run the analysis with the 4 most common lineages
+## this will run the analysis for all countries and save the figures under the
+## /figures folder
 results <- get_results(
   ## provide data
   gis = gis,
