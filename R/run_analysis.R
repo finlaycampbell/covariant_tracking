@@ -1,4 +1,5 @@
 ## packages
+if(!require(pacman)) install.packages("pacman")
 pacman::p_load(
   meta, metafor, lmtest, scimple, tidyverse, rio, broom, here,
   glue, magrittr, warp, binom, nnet, effects, MultinomialCI,
